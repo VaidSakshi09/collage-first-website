@@ -1,0 +1,180 @@
+/* ===== GLOBAL COLORS ===== */
+:root {
+    --primary: #399af5;
+    --secondary: #212223;
+    --accent: #01000b;
+    --light: #d7d3d5;
+    --bg: #f4f7fb;
+    --text: #2b0808;
+}
+
+/* ===== RESET ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+}
+
+/* ===== BODY ===== */
+body {
+    background-color: var(--bg);
+    color: var(--text);
+}
+
+/* ===== NAVBAR ===== */
+nav {
+    background: var(--primary);
+    display: flex;
+    align-items: center;
+    padding: 15px 40px;
+}
+
+nav img {
+    width: 60px;
+    height: 80px;
+    margin-right: 30px;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 18px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+nav li i {
+    color: var(--accent);
+    margin-right: 6px;
+}
+
+nav li a:hover {
+    color: var(--accent);
+}
+
+/* ===== HERO ===== */
+.hero {
+    background: linear-gradient(135deg, var(--primary), var(--secondary));
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.hero h1 {
+    font-size: 42px;
+}
+
+.hero p {
+    font-size: 18px;
+}
+
+/* ===== SECTION ===== */
+.section {
+    padding: 60px 15%;
+    background: white;
+}
+
+.section.light {
+    background: var(--light);
+}
+
+.section h2 {
+    color: var(--primary);
+}
+
+/* ===== SUPPORT BOX ===== */
+.supportbox {
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    gap: 30px;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.formdata {
+    background: var(--light);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.formdata input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+/* ===== SUPPORT CONTACT ===== */
+.support {
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 30px;
+    background: linear-gradient(135deg, var(--primary), var(--secondary));
+    border-radius: 12px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    color: white;
+}
+
+.support dt {
+    color: var(--accent);
+}
+/* ===== ABOUT ===== */
+.aboutbox {
+    max-width: 1100px;
+    margin: 40px auto;
+    background: white;
+    padding: 40px;
+    border-radius: 12px;
+}
+
+.info-card {
+    background: var(--light);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* ===== ADMIN ===== */
+.admin-card {
+    background: var(--light);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* ===== FACILITIES ===== */
+img {
+    width: 400px;
+    height: 250px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+img:hover {
+    transform: scale(1.05);
+}
+
+/* ===== RESEARCH ===== */
+header {
+    background-color: var(--primary);
+    color: white;
+    padding: 20px;
+}
+
+.research-box {
+    background: white;
+    border-left: 6px solid var(--primary);
+}
+
+/* ===== FOOTER ===== */
+footer {
+    background: var(--primary);
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
