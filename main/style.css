@@ -1,11 +1,11 @@
 /* ===== GLOBAL COLORS ===== */
 :root {
     --primary: #399af5;
-    --secondary: #212223;
+    --secondary: #171718;
     --accent: #01000b;
     --light: #d7d3d5;
     --bg: #f4f7fb;
-    --text: #2b0808;
+    --text: #8a4b4b;
 }
 
 /* ===== RESET ===== */
