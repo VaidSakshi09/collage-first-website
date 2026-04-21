@@ -178,3 +178,18 @@ footer {
     text-align: center;
     padding: 15px;
 }
+nav img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    border-radius: 50%; /* circle logo */
+    padding: 5px;
+    background: white;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+/* hover effect */
+nav img:hover {
+    transform: scale(1.1) rotate(5deg);
+}
